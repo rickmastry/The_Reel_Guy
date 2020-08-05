@@ -400,10 +400,12 @@ text-align: center;
 
 
   .banner-title{
-    font-size: 55px;
+    margin-top:100px;
+    font-size: 45px;
   }
   .banner-title-front{
-   font-size: 55px;
+    margin-top:100px;
+   font-size: 45px;
   }
 
   .banner-sub-title{
@@ -447,20 +449,6 @@ text-align: center;
    
   }
 
-
-  .btn{
-    margin-left:160px;
-    font-size: .8rem !important;
-    padding: .5rem .5rem !important;
-    
-  }
-
-  .btn-container{
-    margin-top:280px;
-
-  
-  }
-
   .gallery{
     grid-template-columns: 1fr;
     grid-gap:45px;
@@ -484,86 +472,20 @@ text-align: center;
 
 @media only screen and (max-width: 742px) and (orientation : landscape){
 
-.btn{
-    margin-left:290px;
+  .banner-title{
+    font-size: 25px;
   }
-
-  .btn-container {
-    margin-top: 290px;
-    
+  .banner-title-front{
+   font-size: 25px;
   }
-
-  .name {
-    font-size: 2.5rem;
-    margin-left:2rem;
-}
-
-.sub-name {
-  margin-left: 8rem;
-  
-}
-
-.title {
-  padding-top: 2rem;
-  font-size: 2.5rem;
-  
-}
-
-.sub-title {
-  margin-left: 8rem;
-  margin-top: 7rem;
-  font-size: 2rem;
-  font-family: 'Lobster', cursive;
-}
 
 }
 
 @media only screen and (max-width: 667px) and (orientation: landscape){
  
-.sub-title {
-    margin-left: 8rem;
-    margin-top: 5rem;
-    font-size: 1.5rem;
-}
-
-.title {
-  padding-top: 2rem;
-  font-size: 2rem;
-}
-
-.btn {
-  margin-left: 260px;
-}
-
-.name {
-  text-align: center;
-  font-size: 2.5rem;
-  margin-left: 4rem;
-}
-
-.sub-name {
-  margin-left: 3.5rem;
-}
 }
 
 @media only screen and (max-width: 380px) and (orientation : portrait){
 
-.name {
-    font-size: 1.75rem;
-    margin-left: auto;
-  }
 
-  .sub-name {
-    font-size: 1rem;
-    margin-left: 2.75rem;
-    margin-top: 100px;
-  }
-
-  .sub-title{
-    margin-left:3.75rem;
-  }
-
-  .btn {
-  margin-left: 140px;
-  }
 }
