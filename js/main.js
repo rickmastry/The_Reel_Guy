@@ -37,7 +37,7 @@ function toggleMenu(){
 
 
 
-/*let closed = document.querySelector('.btn-close');
+let closed = document.querySelector('.btn-close');
 let closeBtn = false;
 
 closed.addEventListener("click", toggleBtn, false);
@@ -59,5 +59,5 @@ function toggleBtn(e){
       closeBtn = false;
   }
 
-}*/
+}
  
