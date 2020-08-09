@@ -40,7 +40,7 @@ closed.addEventListener("click", toggleBtn);
 
 function toggleBtn(event){
     sidemenu.style.width = '0px';
-     headline.style.opacity = '0.2';
+     headline.style.opacity = '0.7';
   
     
 
