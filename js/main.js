@@ -23,12 +23,12 @@ navicon.addEventListener('click', toggleMenu, false);
 function toggleMenu(event){
     if(!showMenu){
       if(sidemenu.style.width = '250px');
-         headline.style.opacity="0.2";
+         headline.style.opacity="0.7";
         //Set Menu state
         showMenu = true;
     }else{
       sidemenu.style.width = '0px';
-      headline.style.opacity="0.7";
+      headline.style.opacity="0.2";
         //Set Menu State
         showMenu = false;
 
@@ -40,7 +40,7 @@ closed.addEventListener("click", toggleBtn);
 
 function toggleBtn(event){
     sidemenu.style.width = '0px';
-     headline.style.opacity = '0.7';
+     headline.style.opacity = '0.2';
   
     
 
