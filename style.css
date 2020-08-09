@@ -12,7 +12,7 @@
   --mainRed: rgb(139, 55, 55);
   --mainBlue: rgb(44, 163, 184);
   --mainGreen: rgb(92, 194, 172);
-  --secondaryColor: rgb(250, 232, 192);
+  --secondaryColor: rgb(250, 238, 214);
   --mainGold: rgb(208, 198, 57);
   --secondaryGold: rgb(151, 64, 1);
   --thirdGold: rgb(228, 82, 15);
@@ -20,7 +20,8 @@
 
 html {
     box-sizing: border-box;
-    background: var(--primaryColor);
+    background: var(--secondaryColor);
+    scroll-behavior: smooth;
   }
   body {
     min-height: calc(100vh - 70px);
@@ -28,10 +29,11 @@ html {
     
   }
 
-  .about{
+  
+  .contact{
     border-bottom: 2px solid black;
   }
-
+  
   *, *:before, *:after {
     box-sizing: inherit;
   }
@@ -261,7 +263,7 @@ body.loaded {
 
 footer{
   margin:0;
-  background-color:var(--mainBlue);
+  background-color:var(--mainGreen);
   color:var(--mainWhite);
   height: 300px;
   border-top: 1px solid black;
@@ -302,6 +304,7 @@ footer{
   grid-column-gap: 1.5rem;
   grid-row-gap: 2rem;
   border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 article{
@@ -470,10 +473,21 @@ text-align: center;
 }
 
 @media only screen and (max-width: 667px) and (orientation: landscape){
+  .sectionid-contact{
+    grid-template-columns: 1fr;
+    grid-column-gap: .75rem;
+    grid-row-gap: 1rem;
+   
+  }
  
 }
 
 @media only screen and (max-width: 380px) and (orientation : portrait){
-
+  .sectionid-contact{
+    grid-template-columns: 1fr;
+    grid-column-gap: .75rem;
+    grid-row-gap: 1rem;
+   
+  }
 
 }

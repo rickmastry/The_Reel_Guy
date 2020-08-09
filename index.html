@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <script src="https://kit.fontawesome.com/c3c9035355.js"></script>
+    <link rel="stylesheet" href="css/lightbox.min.css">
     <link href='style.css' rel='stylesheet' type='text/css'>
     <title>The Reel Guy</title>
 </head>
@@ -17,23 +18,23 @@
         <div class="navbar-center">
             <a class="navbar-brand">The Reel Guy</a>
                 <ul class="navbar-nav">
-                    <li><a class="navigation navactive" href="index.html">Home</a></li>
-                    <li><a class="navigation " href="about.html">About</a></li>
-                    <li><a class="navigation" href="contact.html">Contact</a></li>
-                    <li><a class="navigation" href="services.html">Services</a></li>
+                    <li><a class="navigation navactive" href="#intro">Home</a></li>
+                    <li><a class="navigation " href="#about">About</a></li>
+                    <li><a class="navigation" href="#contact">Contact</a></li>
+                    <li><a class="navigation" href="#service">Services</a></li>
                 </ul>
             <span class="nav-icon" ><i class="fas fa-bars"></i>
             </span>
         </div>
          <div id="side-menu" class="side-nav">
-            <a href="#" class="btn-close" >&times</a>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-            <a href="services.html">Services</a>
+            <!--<a href="javascript:void();" class="btn-close" >&times</a>-->
+            <a href="#intro">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <a href="#service">Services</a>
         </div>
     </nav>
-    <div class="about" id="about">
+    <div class="intro" id="intro">
       <div class="image-container">
          <div class="headline">
             <span class="background"></span>
@@ -43,11 +44,113 @@
                    <p class="banner-sub-title">"Have a reeljuvination"</p>
                 </div>
             </div>
-                <!---<img class="ocean" src="img/ocean.jpg">-->
             </div>
         </div>
     </div>
- <script src="js/main.js"></script>  
- <script src="js/jquery-1.10.2.min.js"></script>
+    <!--About Us-->
+    <div class="about" id="about">
+        <div class="banner">
+            <h1 class="banner-title">About Us</h1>
+        </div>
+    </div>
+      <section class="bio">
+          <p class="bio-about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+      </section>
+      <!--Contact-->
+      <div class="contact" id="contact">
+        <div class="image-container">
+           <div class="headline">
+              <span class="background"></span>
+                  <div class="banner">
+                     <h1 class="banner-title">Contact Us</h1>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <section class="sectionid-contact" id="sectionid-contact">
+          <article class="contact-info">
+              <h3 class="contact-info">Contact Email:</h3>
+              <h3 class="contact-info"><a href="mailto:thereelguy.com" class="contact-info">thereelguy.com</a></h3>
+            
+          </article>
+          <article class="contact-info">
+              <h3 class="contact-info">Contact Phone:</h3>
+              <h3 class="contact-info"><a href="tel:8433159590" class="contact-info">Call us at 843-315-9590</a></h3>
+            
+          </article>
+          <article class="contact-info">
+              <h3 class="contact-info">Contact Address:</h3>
+              <h3 class="contact-info">The Reel Guy, LLC <br/>814 Myrtle Beach Blvd Myrtle Beach, SC 29577</h3>
+          </article>
+       </section>
+       <!--Services-->
+          <div class="service" id="service">
+            
+            
+                  <span class="background"></span>
+                      <div class="banner">
+                         <h1 class="banner-title">Services</h1>
+                      </div>
+                
+        
+          </div>
+          <div class="gallery">
+                 <article class="article-container">
+                  <p>Before:</p>
+                  <p>Had to repair such and such</p>
+                      <div class="img-container">
+                      <a href="img/brokereel.jpg" data-lightbox="mygallery" data-title="The Reel Guy"><img src="img/brokereel.jpg"></a>
+                      </div>
+                 </article>
+                 <article class="article-container">
+                  <p>After:</p>
+                  <p>After repair worked like a champ</p>
+                      <div class="img-container">
+                          <a href="img/fixedreel.jpg" data-lightbox="mygallery" data-title="The Reel Guy"><img src="img/fixedreel.jpg"></a>
+                      </div>
+                      
+                  </article>
+                 <article class="article-container">
+                  <p>Before:</p>
+                  <p>Had to repair such and such</p>
+                      <div class="img-container">
+                      <a href="img/brokereel.jpg" data-lightbox="mygallery" data-title="The Reel Guy"><img src="img/brokereel.jpg"></a>
+                      </div>
+                     
+                 </article>
+                 <article class="article-container">
+                  <p>After:</p>
+                  <p>After repair worked like a champ</p>
+                      <div class="img-container">
+                          <a href="img/fixedreel.jpg" data-lightbox="mygallery" data-title="The Reel Guy"><img src="img/fixedreel.jpg"></a>
+                      </div>
+                 </article>
+            </div>
+    <footer>
+        <ul class="social-icons">
+            <li class="color">
+                <a class="icons" href="http://www.facebook.com/MastryMedia" target="new"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
+            </li>
+            <li class="color">
+                <a class="icons" href="http://www.twitter.com" target="new"><i class="fab fa-twitter-square" aria-hidden="true"></i></a>
+            </li>
+            <li class="color">
+                <a class="icons" href="http://www.google.com" target="new"><i class="fab fa-google" aria-hidden="true"></i></a>
+            </li>
+            <li class="color">
+                <a class="icons" href="http://www.youtube.com" target="new"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+        <div class="copyright">
+            <p>Copyright © 2020</p>
+            <p>Mastry Media</p>
+        </div>
+    </footer>           
+    <script src="js/gallery.js"></script> 
+    <script src="js/menu.js"></script>  
+    <script src="js/main.js"></script>  
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/jquery-1.10.2.min.js"></script>
 </body>
 </html>
